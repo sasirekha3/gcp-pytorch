@@ -1,0 +1,1082 @@
+2022-02-26T19:49:24,297 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,297 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,297 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,297 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,298 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,298 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,298 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,299 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,299 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,299 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,300 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,300 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,300 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,299 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,300 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,300 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,300 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,300 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,301 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,301 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,301 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,301 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,301 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,301 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,301 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,301 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,301 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,301 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,301 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,301 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,302 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,302 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,302 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,302 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,305 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,306 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,306 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,306 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,306 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,307 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,307 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,307 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,307 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,308 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,309 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,311 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,311 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,311 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,311 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,312 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,312 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,312 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,312 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,312 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,313 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,313 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,313 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,314 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,314 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T19:49:24,321 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T19:49:24,321 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T19:49:24,321 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T19:49:24,322 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T19:49:24,323 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,444 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,444 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,446 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,446 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,446 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,446 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,446 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,447 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,447 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,447 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,447 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,447 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,447 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,447 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,447 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,448 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,448 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,448 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,448 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,448 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,453 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,454 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,455 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,456 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,456 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,457 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,457 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,457 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,457 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,458 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,459 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,460 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,460 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,460 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,461 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,461 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,461 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,461 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,462 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,462 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,462 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,463 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,463 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,463 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,464 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,464 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,465 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,465 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,465 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,465 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,466 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,466 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,466 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,466 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,466 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,473 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,474 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:02:48,474 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,474 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,475 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:02:48,475 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,475 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:02:48,475 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,475 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:02:48,475 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,475 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:02:48,475 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,475 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:02:48,475 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,476 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:02:48,476 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,476 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:02:48,476 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:02:48,476 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:02:48,476 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,749 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,759 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,750 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,759 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,760 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,761 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,762 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,762 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,762 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,762 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,762 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,762 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,763 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,763 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,763 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,763 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,763 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,763 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,763 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,763 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,763 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,764 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,764 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,764 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,764 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,764 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,764 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,764 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,764 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,764 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,764 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,765 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,765 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,765 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,765 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,766 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,766 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,766 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,766 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,767 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,767 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,767 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,767 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,767 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,768 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,768 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,768 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,769 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,769 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,782 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,785 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,786 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,786 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,786 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,786 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,787 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,787 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,787 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,787 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:03:05,789 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:03:05,789 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:03:05,790 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:03:05,790 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:03:05,791 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:03:05,791 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:03:05,791 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:03:05,792 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:03:05,792 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:03:05,792 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,604 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,606 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,607 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,607 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,608 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,608 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,608 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,609 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,609 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,609 [WARN ] W-9006-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,656 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,657 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,657 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,658 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,658 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,658 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,658 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,659 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,659 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,659 [WARN ] W-9007-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,671 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,671 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,672 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,672 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,672 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,672 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,672 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,672 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,672 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,672 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,672 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,672 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,673 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,673 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,673 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,673 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,673 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,673 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,673 [WARN ] W-9002-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,673 [WARN ] W-9003-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,685 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,686 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,686 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,686 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,687 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,688 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,688 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,688 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,688 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,689 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,689 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,689 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,689 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,689 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,689 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,689 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,689 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,689 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,690 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,690 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,690 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,690 [WARN ] W-9001-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,690 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,690 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,690 [WARN ] W-9005-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:10:25,692 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:10:25,692 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:10:25,692 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:10:25,693 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:10:25,694 [WARN ] W-9004-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:16:53,803 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:16:53,803 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-02-26T20:16:53,804 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-02-26T20:16:53,804 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-02-26T20:16:53,804 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-02-26T20:16:53,804 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-02-26T20:16:53,805 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-02-26T20:16:53,805 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-02-26T20:16:53,805 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -     import torch
+2022-02-26T20:16:53,805 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-02-26T20:27:25,473 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:25,475 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32782
+2022-02-26T20:27:25,475 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:25,475 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:25,490 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:25,528 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:25,537 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:25,537 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:25,537 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:25,538 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:25,538 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:25,538 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:25,538 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:25,538 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:25,538 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:25,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:25,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:25,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:25,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/0cfe6011a2e44b698db0e0d3ff6aac08/mnist_handler.py", line 1, in <module>
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:27:25,540 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-02-26T20:27:25,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-02-26T20:27:25,542 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-02-26T20:27:25,542 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-02-26T20:27:25,542 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-02-26T20:27:25,542 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-02-26T20:27:25,542 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 85, in load
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = self._load_default_handler(handler)
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 128, in _load_default_handler
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name, 'ts.torch_handler')
+2022-02-26T20:27:25,543 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:27:25,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:25,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:25,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-02-26T20:27:25,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'ts.torch_handler.mnist_handler'
+2022-02-26T20:27:27,090 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:27,091 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32785
+2022-02-26T20:27:27,091 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:27,091 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:27,093 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:27,112 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:27,115 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:27,116 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:27,116 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:27,117 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:27,117 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:27,117 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:27,117 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:27,118 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:27,118 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:27,118 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:27,118 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:27,118 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:27,119 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:27,119 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:28,589 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:28,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32788
+2022-02-26T20:27:28,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:28,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:28,592 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:28,608 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:28,611 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:28,611 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:28,611 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:28,611 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:28,611 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:28,612 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:28,612 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:28,612 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:28,612 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:28,612 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:28,613 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:28,613 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:28,613 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:28,614 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:28,614 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:27:31,125 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:31,125 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32791
+2022-02-26T20:27:31,125 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:31,125 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:31,127 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:31,143 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:31,145 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:31,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:31,146 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:31,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:31,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:31,147 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:31,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:31,148 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:31,148 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:31,149 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:31,150 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:31,150 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:34,616 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:34,617 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32796
+2022-02-26T20:27:34,618 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:34,618 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:34,619 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:34,637 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:34,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:34,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:34,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:34,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:34,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:34,639 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:34,640 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:34,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:34,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:27:34,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:27:34,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/0cfe6011a2e44b698db0e0d3ff6aac08/mnist_handler.py", line 1, in <module>
+2022-02-26T20:27:34,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:27:40,125 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:40,126 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32799
+2022-02-26T20:27:40,126 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:40,126 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:40,127 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:40,144 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:40,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:40,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:40,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:40,146 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:40,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:40,146 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:40,146 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:40,147 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:40,148 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:40,148 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:27:48,615 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:27:48,616 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32801
+2022-02-26T20:27:48,616 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:27:48,616 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:27:48,618 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:27:48,647 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:27:48,650 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:27:48,650 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:27:48,651 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:27:48,651 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/0cfe6011a2e44b698db0e0d3ff6aac08/mnist_handler.py", line 1, in <module>
+2022-02-26T20:27:48,652 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:27:48,652 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:27:48,652 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:27:48,652 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:28:02,153 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:28:02,154 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32805
+2022-02-26T20:28:02,154 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:28:02,154 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:28:02,155 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:28:02,176 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:28:02,178 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:28:02,178 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:28:02,178 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/0cfe6011a2e44b698db0e0d3ff6aac08/mnist_handler.py", line 1, in <module>
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:28:02,179 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:28:02,180 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:28:23,793 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:28:23,794 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32810
+2022-02-26T20:28:23,794 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:28:23,794 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:28:23,795 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:28:23,817 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:28:23,819 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG - /Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+2022-02-26T20:28:23,819 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:28:23,820 [WARN ] W-9000-mnist_1.0-stderr MODEL_LOG -   _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/0cfe6011a2e44b698db0e0d3ff6aac08/mnist_handler.py", line 1, in <module>
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:28:23,820 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:28:23,821 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:28:23,821 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:33:38,988 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:38,989 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32920
+2022-02-26T20:33:38,989 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:38,989 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:38,997 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:39,017 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:39,020 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:39,021 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:39,022 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:39,022 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:39,022 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:39,022 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:39,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:39,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:39,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:39,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:33:39,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:33:39,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:33:39,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-02-26T20:33:39,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-02-26T20:33:39,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 85, in load
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = self._load_default_handler(handler)
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 128, in _load_default_handler
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name, 'ts.torch_handler')
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:39,027 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:39,028 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:39,028 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+2022-02-26T20:33:39,028 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:39,028 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:39,029 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:39,029 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-02-26T20:33:39,029 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'ts.torch_handler.mnist_handler'
+2022-02-26T20:33:40,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:40,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32926
+2022-02-26T20:33:40,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:40,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:40,642 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:40,667 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:40,671 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:40,672 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:40,672 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:40,672 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:40,673 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:40,673 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:40,673 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:40,673 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:40,673 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:40,674 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:40,674 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:40,675 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:40,675 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:40,675 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:40,675 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:33:40,676 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:33:40,676 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:33:40,676 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:33:40,676 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:33:42,220 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:42,221 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32928
+2022-02-26T20:33:42,221 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:42,221 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:42,223 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:42,245 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:42,246 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:42,247 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:42,247 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:42,247 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:42,247 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:42,248 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:33:42,249 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:42,250 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-02-26T20:33:42,250 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-02-26T20:33:42,250 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-02-26T20:33:42,250 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-02-26T20:33:44,850 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:44,851 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32930
+2022-02-26T20:33:44,851 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:44,851 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:44,852 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:44,866 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:44,868 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:44,869 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:44,870 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:44,870 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:33:48,403 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:48,404 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32932
+2022-02-26T20:33:48,404 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:48,404 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:48,405 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:48,420 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:48,422 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:48,422 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:48,422 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:48,423 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:48,424 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:48,424 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:48,424 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:48,424 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:33:53,992 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:33:53,994 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32935
+2022-02-26T20:33:53,994 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:33:53,994 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:33:53,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:33:54,020 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:33:54,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:33:54,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:33:54,023 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:33:54,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:33:54,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:33:54,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:33:54,025 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:33:54,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:33:54,026 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:34:02,544 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:34:02,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32938
+2022-02-26T20:34:02,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:34:02,545 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:34:02,546 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:34:02,570 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:34:02,572 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:34:02,573 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:34:16,109 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:34:16,110 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32942
+2022-02-26T20:34:16,110 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:34:16,110 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:34:16,111 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:34:16,132 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:34:16,133 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:34:16,134 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:34:16,135 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:34:37,859 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:34:37,860 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]32948
+2022-02-26T20:34:37,860 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:34:37,860 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:34:37,861 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:34:37,888 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:34:37,892 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/33e4379f412247909b8a6e25a7d1d62d/mnist_handler.py", line 1, in <module>
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from torchvision import transforms
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'torchvision'
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:34:37,893 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:36:23,981 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:23,982 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33001
+2022-02-26T20:36:23,982 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:23,982 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:23,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:24,024 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:27,579 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:27,579 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:27,579 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:27,579 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:27,580 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:27,580 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:27,580 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:27,580 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:27,580 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:27,581 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:27,581 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:27,581 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:27,581 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:27,581 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:27,582 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:36:27,582 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from ts.torch_handler.image_classifier import ImageClassifier
+2022-02-26T20:36:27,582 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/image_classifier.py", line 8, in <module>
+2022-02-26T20:36:27,582 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from .vision_handler import VisionHandler
+2022-02-26T20:36:27,582 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/vision_handler.py", line 11, in <module>
+2022-02-26T20:36:27,583 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from captum.attr import IntegratedGradients
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'captum'
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:27,584 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-02-26T20:36:27,585 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-02-26T20:36:27,585 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-02-26T20:36:27,585 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-02-26T20:36:27,585 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-02-26T20:36:27,586 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-02-26T20:36:27,586 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 95, in load_model
+2022-02-26T20:36:27,586 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     service = model_loader.load(model_name, model_dir, handler, gpu,
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 85, in load
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = self._load_default_handler(handler)
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 128, in _load_default_handler
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name, 'ts.torch_handler')
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:27,587 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 961, in _find_and_load_unlocked
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:27,588 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-02-26T20:36:27,589 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'ts.torch_handler.mnist_handler'
+2022-02-26T20:36:29,238 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:29,239 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33005
+2022-02-26T20:36:29,239 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:29,239 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:29,240 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:29,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:29,332 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:29,333 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:29,333 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:29,333 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:29,333 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:29,333 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:29,334 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:29,334 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:29,334 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:29,334 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:29,335 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:29,335 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:29,335 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:30,899 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:30,900 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33008
+2022-02-26T20:36:30,900 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:30,900 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:30,902 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:30,916 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:30,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:30,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:30,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:30,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:30,995 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:30,996 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:30,997 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:30,997 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:33,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:33,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33010
+2022-02-26T20:36:33,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:33,539 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:33,541 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:33,561 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:33,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:33,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:33,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:33,639 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:33,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:33,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:33,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:33,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:33,640 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:33,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:33,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:33,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:33,641 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:37,163 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:37,164 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33012
+2022-02-26T20:36:37,164 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:37,164 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:37,166 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:37,180 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:37,255 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:37,256 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:37,257 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:37,257 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:37,257 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:37,257 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:37,257 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:42,859 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:42,859 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33015
+2022-02-26T20:36:42,859 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:42,860 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:42,861 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:42,877 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:42,961 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:42,962 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:42,963 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:42,963 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:42,963 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:42,963 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:42,963 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:42,964 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:42,964 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:36:51,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:36:51,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33019
+2022-02-26T20:36:51,590 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:36:51,591 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:36:51,592 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:36:51,612 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:36:51,681 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:36:51,681 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:36:51,681 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:36:51,681 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:36:51,682 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:36:51,683 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:36:51,683 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from ts.torch_handler.image_classifier import ImageClassifier
+2022-02-26T20:36:51,683 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/image_classifier.py", line 8, in <module>
+2022-02-26T20:37:05,240 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:37:05,240 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33023
+2022-02-26T20:37:05,240 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:37:05,240 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:37:05,242 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:37:05,276 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:37:05,370 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:37:05,370 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:37:05,371 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:37:05,372 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:37:05,373 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from ts.torch_handler.image_classifier import ImageClassifier
+2022-02-26T20:37:05,373 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/image_classifier.py", line 8, in <module>
+2022-02-26T20:37:05,373 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from .vision_handler import VisionHandler
+2022-02-26T20:37:05,373 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/vision_handler.py", line 11, in <module>
+2022-02-26T20:37:05,373 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from captum.attr import IntegratedGradients
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'captum'
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - 
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 189, in <module>
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 161, in run_server
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-02-26T20:37:05,374 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_service_worker.py", line 123, in handle_connection
+2022-02-26T20:37:26,976 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:37:26,977 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33028
+2022-02-26T20:37:26,977 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:37:26,977 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:37:26,979 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:37:27,005 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:37:27,080 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:37:27,081 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from ts.torch_handler.image_classifier import ImageClassifier
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/image_classifier.py", line 8, in <module>
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from .vision_handler import VisionHandler
+2022-02-26T20:37:27,082 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/vision_handler.py", line 11, in <module>
+2022-02-26T20:38:01,835 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:38:01,836 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33039
+2022-02-26T20:38:01,836 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:38:01,836 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:38:01,838 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:38:01,864 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:38:01,997 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 83, in load
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/model_loader.py", line 123, in _load_handler_file
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-02-26T20:38:01,998 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/private/var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T/models/d8e5c78a5f2a40899ccf2bc1b24393d3/mnist_handler.py", line 2, in <module>
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     from ts.torch_handler.image_classifier import ImageClassifier
+2022-02-26T20:38:01,999 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/image_classifier.py", line 8, in <module>
+2022-02-26T20:39:09,768 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Listening on port: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000
+2022-02-26T20:39:09,769 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - [PID]33128
+2022-02-26T20:39:09,769 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Torch worker started.
+2022-02-26T20:39:09,769 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-02-26T20:39:09,783 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/2r/3bt6dykx5yb757sz670pp2hh0000gn/T//.ts.sock.9000.
+2022-02-26T20:39:09,813 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - model_name: mnist, batchSize: 1
+2022-02-26T20:39:11,464 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Missing the index_to_name.json file. Inference output will not include class name.
+2022-02-26T20:39:12,702 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend received inference at: 1645907952
+2022-02-26T20:39:12,703 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Invoking custom service failed.
+2022-02-26T20:39:12,703 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-02-26T20:39:12,703 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/service.py", line 102, in predict
+2022-02-26T20:39:12,704 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     ret = self._entry_point(input_batch, self.context)
+2022-02-26T20:39:12,704 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/base_handler.py", line 216, in handle
+2022-02-26T20:39:12,704 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     data_preprocess = self.preprocess(data)
+2022-02-26T20:39:12,704 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -   File "/Users/sasirekhakambhampaty/opt/anaconda3/envs/python38/lib/python3.8/site-packages/ts/torch_handler/vision_handler.py", line 52, in preprocess
+2022-02-26T20:39:12,704 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG -     image = torch.FloatTensor(image)
+2022-02-26T20:39:12,705 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - TypeError: new(): data must be a sequence (got dict)
+2022-02-26T20:43:08,778 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Backend received inference at: 1645908188
+2022-02-26T20:43:08,806 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Calculating Explanations
+2022-02-26T20:43:08,807 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - Getting data and target
+2022-02-26T20:43:08,875 [INFO ] W-9000-mnist_1.0-stdout MODEL_LOG - input shape torch.Size([1, 1, 28, 28])

@@ -1,0 +1,2 @@
+2022-02-26T20:43:08,875 - HandlerTime.Milliseconds:93.38|#ModelName:mnist,Level:Model|#hostname:Sasirekhas-MacBook-Pro.local,requestID:0de70253-7a56-40c7-8c5b-06bc356f640c,timestamp:1645908188
+2022-02-26T20:43:08,876 - PredictionTime.Milliseconds:93.44|#ModelName:mnist,Level:Model|#hostname:Sasirekhas-MacBook-Pro.local,requestID:0de70253-7a56-40c7-8c5b-06bc356f640c,timestamp:1645908188
