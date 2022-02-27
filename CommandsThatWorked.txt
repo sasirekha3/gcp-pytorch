@@ -1,0 +1,270 @@
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud auth configure-docker us-east1-docker.pkg.dev
+
+WARNING: Your config file at [/Users/sasirekhakambhampaty/.docker/config.json] contains these credential helper entries:
+
+{
+  "credHelpers": {
+    "gcr.io": "gcloud",
+    "us.gcr.io": "gcloud",
+    "eu.gcr.io": "gcloud",
+    "asia.gcr.io": "gcloud",
+    "staging-k8s.gcr.io": "gcloud",
+    "marketplace.gcr.io": "gcloud",
+    "europe-west2-docker.pkg.dev": "gcloud"
+  }
+}
+Adding credentials for: us-east1-docker.pkg.dev
+After update, the following will be written to your Docker config file located at [/Users/sasirekhakambhampaty/.docker/config.json]:
+ {
+  "credHelpers": {
+    "gcr.io": "gcloud",
+    "us.gcr.io": "gcloud",
+    "eu.gcr.io": "gcloud",
+    "asia.gcr.io": "gcloud",
+    "staging-k8s.gcr.io": "gcloud",
+    "marketplace.gcr.io": "gcloud",
+    "europe-west2-docker.pkg.dev": "gcloud",
+    "us-east1-docker.pkg.dev": "gcloud"
+  }
+}
+
+Do you want to continue (Y/n)?  Y
+
+Docker configuration file updated.
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % docker push us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist
+
+Using default tag: latest
+The push refers to repository [us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist]
+6381c686d13f: Preparing 
+cdbf36cfa7d0: Preparing 
+b7c55b61e5ca: Preparing 
+5f70bf18a086: Preparing 
+b51907268b96: Preparing 
+5c98212eebc0: Waiting 
+3a59802e1d7e: Waiting 
+4c8cf40f2cd7: Waiting 
+824bf068fd3d: Waiting 
+name unknown: Repository "getting-started-pytorch" not found
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta artifacts repositories create getting-started-pytorch \
+ --repository-format=docker \
+ --location=us-east1
+
+Create request issued for: [getting-started-pytorch]
+Waiting for operation [projects/oxfordhackk22/locations/us-east1/operations/3bd6089b-f6f3-4e71-b09a-77edfff050f7] to complete...done.                        
+Created repository [getting-started-pytorch].
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % docker push us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist
+
+Using default tag: latest
+The push refers to repository [us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist]
+6381c686d13f: Pushed 
+cdbf36cfa7d0: Pushed 
+b7c55b61e5ca: Pushed 
+5f70bf18a086: Layer already exists 
+b51907268b96: Pushed 
+5c98212eebc0: Pushed 
+3a59802e1d7e: Pushed 
+4c8cf40f2cd7: Pushed 
+824bf068fd3d: Pushed 
+latest: digest: sha256:572e4ab3aec0ff1c6ff09b725fd176f474afa2899ba5c43b3284e1a6014d3746 size: 2415
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c1-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+  --python-version=3.8
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) NOT_FOUND: Field: parent Error: The model resource: (530134396388, getting_started_pytorch) was not found. Please create the model resource first by using 'gcloud ai-platform models create getting_started_pytorch'.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: "The model resource: (530134396388, getting_started_pytorch) was\
+      \ not found. Please create the model resource first by using 'gcloud ai-platform\
+      \ models create getting_started_pytorch'."
+    field: parent
+zsh: command not found: --python-version=3.8
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c1-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+> gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c1-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+  --python-version=3.8
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud ai-platform models create mnist \
+  --region=us-east1
+
+Using endpoint [https://us-east1-ml.googleapis.com/]
+^[[ACreated ai platform model [projects/oxfordhackk22/models/mnist].
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c1-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+  --python-version=3.8
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) NOT_FOUND: Field: parent Error: The model resource: (530134396388, getting_started_pytorch) was not found. Please create the model resource first by using 'gcloud ai-platform models create getting_started_pytorch'.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: "The model resource: (530134396388, getting_started_pytorch) was\
+      \ not found. Please create the model resource first by using 'gcloud ai-platform\
+      \ models create getting_started_pytorch'."
+    field: parent
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud ai-platform models create getting_started_pytorch \
+  --region=us-east1  
+  
+Using endpoint [https://us-east1-ml.googleapis.com/]
+Created ai platform model [projects/oxfordhackk22/models/getting_started_pytorch].
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \              
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c1-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+  --python-version=3.8
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) INVALID_ARGUMENT: Field: version.machine_type Error: Custom containers are not supported on the requested machine type: mls1-c1-m2
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: 'Custom containers are not supported on the requested machine type:
+      mls1-c1-m2'
+    field: version.machine_type
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c4-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+  --python-version=3.8
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) INVALID_ARGUMENT: Field: version.machine_type Error: Custom containers are not supported on the requested machine type: mls1-c4-m2
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: 'Custom containers are not supported on the requested machine type:
+      mls1-c4-m2'
+    field: version.machine_type
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+  --python-version=3.8
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) INVALID_ARGUMENT: Custom container is not compatible with the given runtime version (), Python version (3.8), or framework (CUSTOM_CONTAINER). Runtime version and Python version should not be specified. Framework should be set to `custom_container` or empty.
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist \
+  --framework=custom_container
+ERROR: (gcloud.beta.ai-platform.versions.create) argument --framework: Invalid choice: 'custom-container'.
+
+Valid choices are [scikit-learn, tensorflow, xgboost].
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=mls1-c4-m2 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) INVALID_ARGUMENT: Field: version.machine_type Error: Custom containers are not supported on the requested machine type: mls1-c4-m2
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: 'Custom containers are not supported on the requested machine type:
+      mls1-c4-m2'
+    field: version.machine_type
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+Using endpoint [https://us-east1-ml.googleapis.com/]
+Creating version (this might take a few minutes)......failed.                                                                                                
+ERROR: (gcloud.beta.ai-platform.versions.create) Failed to process container image, contact cloudml-feedback@google.com
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud ai-platform models create getting_started_pytorch \
+  --region=us-east1  
+  
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.ai-platform.models.create) Resource in projects [oxfordhackk22] is the subject of a conflict: Field: model.name Error: A model with the same name already exists.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: A model with the same name already exists.
+    field: model.name
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create 1.0 \             
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) INVALID_ARGUMENT: Field: version.name Error: A name should start with a letter and contain only letters, numbers and underscores.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: A name should start with a letter and contain only letters, numbers
+      and underscores.
+    field: version.name
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v1 \ 
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+Using endpoint [https://us-east1-ml.googleapis.com/]
+ERROR: (gcloud.beta.ai-platform.versions.create) ALREADY_EXISTS: Field: version.name Error: A version with the same name already exists.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: A version with the same name already exists.
+    field: version.name
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud beta ai-platform versions create v2 \
+  --region=us-east1 \
+  --model=getting_started_pytorch \
+  --machine-type=n1-standard-4 \
+  --image=us-east1-docker.pkg.dev/oxfordhackk22/getting-started-pytorch/serve-mnist \
+  --ports=8080 \
+  --health-route=/ping \
+  --predict-route=/predictions/mnist
+Using endpoint [https://us-east1-ml.googleapis.com/]
+Creating version (this might take a few minutes)......done.                                                                                                  
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % gcloud auth print-access-token              
+ya29.A0ARrdaM_W2iOAG07AAFfyR5Qndo7Vob2aedLeKuxukfkU74bdO2ARRp_eM4lQI-Um6sEGRwXwkGXZ807rm8cgRTuva8sXUnAUfW-wzsUKML_3SiIknROWGhjlCX8S-O4sS3AF-pFuh-KNym3TF1R15XuxjAt0iT2VH9lqkg
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % ls
+Dockerfile		config.properties	logs			mnist_cnn.pt		mnist_ts.json		screenshots
+README.md		instances.json		mnist.py		mnist_handler.py	model-server		test_data
+(python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % curl -X POST \
+  -H "Authorization: Bearer ya29.A0ARrdaM_W2iOAG07AAFfyR5Qndo7Vob2aedLeKuxukfkU74bdO2ARRp_eM4lQI-Um6sEGRwXwkGXZ807rm8cgRTuva8sXUnAUfW-wzsUKML_3SiIknROWGhjlCX8S-O4sS3AF-pFuh-KNym3TF1R15XuxjAt0iT2VH9lqkg" \
+  -H "Content-Type: application/json; charset=utf-8" \
+  -d @instances.json \
+  https://us-east1-ml.googleapis.com/v1/projects/oxfordhackk22/models/getting_started_pytorch/versions/v2:predict
+{"predictions": [3]}%                                                                                                                                         (python38) sasirekhakambhampaty@Sasirekhas-MacBook-Pro mnist % 
